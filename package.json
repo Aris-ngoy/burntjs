@@ -1,5 +1,5 @@
 {
-  "name": "react-native-burntjs",
+  "name": "react-native-irano",
   "version": "0.1.0",
   "description": "Cross-platform toasts for React Native",
   "source": "./src/index.tsx",
@@ -37,7 +37,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-burntjs-example",
+    "example": "yarn workspace react-native-irano-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -52,14 +52,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aris-ngoy/react-native-burntjs.git"
+    "url": "git+https://github.com/Aris-ngoy/react-native-irano.git"
   },
   "author": "Aristote Ngoy <harriscreativity@gmail.com> (https://github.com/Aris-ngoy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Aris-ngoy/react-native-burntjs/issues"
+    "url": "https://github.com/Aris-ngoy/react-native-irano/issues"
   },
-  "homepage": "https://github.com/Aris-ngoy/react-native-burntjs#readme",
+  "homepage": "https://github.com/Aris-ngoy/react-native-irano#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -68,6 +68,7 @@
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^9.0.2",
+    "@testing-library/react-native": "^12.9.0",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
@@ -99,6 +100,9 @@
     "modulePathIgnorePatterns": [
       "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|react-native-reanimated|react-native-svg|@react-native|@react-navigation|@react-native-community|expo-modules-core|expo-asset|expo-font)/)"
     ]
   },
   "commitlint": {
@@ -183,5 +187,10 @@
     "languages": "js",
     "type": "library",
     "version": "0.44.2"
+  },
+  "dependencies": {
+    "react-native-reanimated": "^3.16.2",
+    "react-native-svg": "^15.9.0",
+    "react-test-renderer": "^18.3.1"
   }
 }

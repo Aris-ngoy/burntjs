@@ -1,30 +1,53 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-burntjs';
-
-export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
+import { IranoProvider } from 'react-native-irano';
+import Home from './Home';
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <IranoProvider
+    // errorProps={{
+    //   pathAnimatedProps: {
+    //     stroke: 'lightgray',
+    //     strokeWidth: 1.4,
+    //   },
+    //   cardStyle: {
+    //     backgroundColor: '#000',
+    //   },
+    //   subtitleStyle: {
+    //     color: '#fff',
+    //     fontFamily: 'sans-serif',
+    //   },
+    //   titleStyle: {
+    //     color: '#fff',
+    //   },
+    // }}
+    // toastSuccessProps={{
+    //   pathProps: {
+    //     stroke: 'white',
+    //   },
+    //   iconContainerStyle: {
+    //     backgroundColor: 'green',
+    //   },
+    // }}
+    // toastErrorProps={{
+    //   pathProps: {
+    //     stroke: 'red',
+    //   },
+    //   iconContainerStyle: {
+    //     backgroundColor: 'white',
+    //   },
+    //   toastMainContainerStyle: {
+    //     backgroundColor: 'red',
+    //   },
+    //   titleStyle: {
+    //     color: 'white',
+    //   },
+    //   subtitleStyle: {
+    //     color: 'white',
+    //   },
+    // }}
+    >
+      <Home />
+    </IranoProvider>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
-  },
-});
+export default App;

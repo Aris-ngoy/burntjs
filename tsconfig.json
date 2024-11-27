@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-burntjs": ["./src/index"]
+      "react-native-irano": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import { Alert } from './components/alert';
+import IranoProvider, { useIrano } from './providers/irano.provider';
+
+export { Alert, IranoProvider, useIrano };

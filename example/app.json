@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "burntjs.example"
+      "bundleIdentifier": "irano.example"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "burntjs.example"
+      "package": "irano.example"
     },
     "web": {
       "favicon": "./assets/favicon.png"
