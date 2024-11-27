@@ -1,6 +1,6 @@
 {
   "name": "react-native-irano",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "description": "Cross-platform toasts for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",

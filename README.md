@@ -1,8 +1,28 @@
 # React Native Irano
 
+## Video Demonstration
+
+You can watch a demonstration of the React Native Irano components in action below:
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="assets/1.png" width="200" alt="Demo Image 1" />
+    <img src="assets/2.png" width="200" alt="Demo Image 2" />
+    <img src="assets/3.png" width="200" alt="Demo Image 3" />
+    <img src="assets/4.png" width="200" alt="Demo Image 4" />
+</div>
+
+## Installation
+
+To use the React Native Irano components, ensure you have the following dependencies installed in your React Native project. You can use one of the following commands based on your package manager:
+
+```sh
+npm install react-native-irano
+# or
+yarn add react-native-irano
+```
+
 ## Table of Contents
 - [Overview](#overview)
-- [Installation](#installation)
 - [Usage Example](#usage-example)
   - [Step 1: Wrap Your Application with `IranoProvider`](#step-1-wrap-your-application-with-irano-provider)
   - [Step 2: Use the `useIrano` Hook in Your Component](#step-2-use-the-useirano-hook-in-your-component)
@@ -21,16 +41,6 @@
 ## Overview
 
 React Native Irano is a library that provides customizable alert and toast components for React Native applications. It allows developers to easily display notifications and alerts with smooth animations and various presets.
-
-## Installation
-
-To use the React Native Irano components, ensure you have the following dependencies installed in your React Native project. You can use one of the following commands based on your package manager:
-
-```sh
-npm install react-native-irano
-# or
-yarn add react-native-irano
-```
 
 ## Usage Example
 
