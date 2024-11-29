@@ -117,7 +117,6 @@ const Home = () => {
 
 export default Home;
 ```
-
 ## Components
 
 ### Alert Component
@@ -197,3 +196,4 @@ This component is open-source and available under the MIT License. Feel free to 
 If you encounter any issues or have questions, please open an issue in the repository or contact the maintainers for support.
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+

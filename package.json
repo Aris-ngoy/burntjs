@@ -1,7 +1,7 @@
 {
   "name": "react-native-irano",
-  "version": "1.0.2",
-  "description": "Cross-platform toasts for React Native",
+  "version": "1.0.3",
+  "description": "A customizable cross-platform toast notification library for React Native.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -47,8 +47,18 @@
   },
   "keywords": [
     "react-native",
+    "toast",
+    "notification",
+    "cross-platform",
     "ios",
-    "android"
+    "android",
+    "toast-notification",
+    "react-native-toast",
+    "react-native-irano",
+    "expo-irano",
+    "irano",
+    "alert",
+    "react-native-alert"
   ],
   "repository": {
     "type": "git",
