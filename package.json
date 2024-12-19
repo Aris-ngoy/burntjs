@@ -1,6 +1,6 @@
 {
   "name": "react-native-irano",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A customizable cross-platform toast notification library for React Native.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
