@@ -171,7 +171,7 @@ export const Alert: FC<AlertProps> = ({
         {visible && (
           <Animated.View
             entering={ZoomIn.springify()}
-            exiting={ZoomOut.springify()}
+            exiting={ZoomOut.duration(220).easing(Easing.linear)}
             style={[styles.card, cardStyle]}
             onTouchEnd={handleDialogClose}
             {...animatedViewProps}
